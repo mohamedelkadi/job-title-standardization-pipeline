@@ -1,0 +1,103 @@
+member_id,name,title,predicted_seniority,confidence
+1292950,BILL STEGELMEYER,--,Head,0.1526413857936859
+1526574,Beul Kifetew,Sales Marketing Associate at Bozzuto,Partner,0.47713997960090637
+1673923,Barnett Chessin,Consulting EXO at USAID,Head,0.20204773545265198
+1713495,Blake San Fellipo,Account Manager at Altair Engineering,Manager,0.7082910537719727
+1748441,Bob Altendorf,Let's collaborate so I can help you succeed!,Partner,0.2943834364414215
+1879457,Bethany Shiers,"Investment Manager at August Equity - Leading UK & Ireland investors across Technology, Business Services, Healthcare and Education",Manager,0.6855126619338989
+1896406,Breeana Sheffield,Environmental Science,Head,0.15473772585391998
+2136454,Brian Westmeyer,Senior Technical Analyst,Senior,0.8804805874824524
+2148228,Brianna Despenza,Senior Associate Creative Strategist,Senior,0.8557027578353882
+2206788,Brigitte Piuze,"Project Manager at CAE Inc., PMP",Manager,0.46852993965148926
+2332348,Benis Cubas,Chef/Kitchen Manager,Manager,0.6924549341201782
+2537958,Brett Paitry,Tax Director at EY,Director,0.7110320925712585
+2586540,Jamie A. Burns,Senior Operations Planner/Analyst,Senior,0.9459790587425232
+2903117,Jamey Tisdale,"Chief of Staff, WW Specialist Org at Amazon Web Services",Head,0.428292453289032
+2933289,Jacob Ludy,Tax Analyst at State Farm,Head,0.26693692803382874
+2941473,Jacob Hornbacher,National Director of Sports at USSSA,Director,0.5855006575584412
+2974733,"Jade Kause, P.Eng","Supervisor, Damage Prevention at ATCO Group",Senior,0.6642435789108276
+3051723,"Jacobey Ford, MA, MHA, RRT",HR Specialist (Policy) at U.S. Department of Health and Human Services (HHS),Head,0.2196914702653885
+3139643,"Jay Von Boeckmann, MBA",Sr. Manager at Mazda North American Operations,Senior,0.46920064091682434
+3195719,Jess Wishon,Outreach Specialist at PPRC,Partner,0.5952173471450806
+3474664,Jon Volmar,Life consultant helping people realize experiences are more important than material things.,Head,0.14769171178340912
+3477079,Jon Northington,"Mobile Expert, Virtual Retail",VP,0.29177552461624146
+3498567,Joanne Giacco,Executive Assistant at TJX Canada/Winners Merchants International L.P.,Entry,0.2650570869445801
+3507644,Joanne Kalp,Retired at Preferment,Senior,0.5443921685218811
+3567305,Jeremiah Asaka,Assistant Professor at Sam Houston State University,Head,0.2269047349691391
+3612348,Jonathan Pointdujour,"Manager, Global CP Business Operations at Paramount",Manager,0.6702704429626465
+3695879,Jonathan Armsden,Identity Access Management (IAM) Systems Administrator Lead,Head,0.5637199878692627
+3720751,Jodi Como,"Ulta Beauty GM | Retail Operations, Guest Experience, Sales Growth",Manager,0.45561662316322327
+3750757,Joe Bernyk,Community Engagement Specialist at The Wood County Board of Developmental Disabilities,Partner,0.2856115996837616
+3888872,Jennifer Grolman,Associate Director at Willis Towers Watson,Partner,0.23556125164031982
+3921606,Jymme Kern,Owner/Operator of The UPS Store 4289,Owner,0.7202768921852112
+4094693,Jennifer Mathien,"Pilates & Barre Instructor, Unfranchise Business Owner at SHOP.COM, Wellness Enthusiast",Owner,0.57676762342453
+4095391,Joy Kelly Scott,Managing Director - International Tax Services at EY,Director,0.39284515380859375
+4378459,Ju-Seog Lee,Professor at UT MD Anderson Cancer Center,Senior,0.2376851886510849
+4386742,Junyi Chung,"Inventory Logistics, GovX",VP,0.15050803124904633
+4750990,Joan Brownhill MCQI CQP,Technical Evidence Manager at High Speed 2 Ltd,Manager,0.6880038380622864
+4804496,Joanna Loops,Education Director at DonorSnap,Director,0.6686429977416992
+4942148,"Johnny Woods, MAJ (Ret) MBA, PMP",Educator/Professional Manager,Manager,0.7780404686927795
+5276202,Kale Easterling,"Graduate of University of Houston, C.T. Bauer College of Business",Senior,0.24624766409397125
+5278855,Kaleb Hartje,"Senior Manager, Marketing Program Management at Lumen Technologies",Senior,0.5219501256942749
+5556131,Josh Dolben,Technical Services Specialist at Abbott Diagnostics Business,Senior,0.31805145740509033
+7008214,Yeon Whan Yoon,Project Designer at Spin Master,VP,0.18962161242961884
+7107982,Yevgeniy Gevorkyan,Business Systems Analyst at Amway & Defensive Coordinator at Calvin University Men's Lacrosse,Head,0.17881084978580475
+7200017,Ed Gruenwald,"Director of Operations and Development at Grin and Grow, Ltd.",Director,0.6506215929985046
+7327329,Yoshie Kurkowski,Creative Design Lead - Marketing at LAIKA Studios,Head,0.3540109097957611
+7329719,Yuly Alexandra Mora,"Medical Laboratory Technologist 
+Microbiology 
+LifeLabs Medical Laboratory Services",Head,0.2315235286951065
+7615825,Edwin Farner,--,Head,0.1526413857936859
+8324513,Hasani Stewart,Corporate and Facilities Services Administrator,Senior,0.2601962685585022
+8714660,Hilma Raheem,Specialist - Training and Development,Senior,0.1674191653728485
+9008326,"Ivy Zhou, PMP",Sr Program Manager at  Amazon Web Services (AWS),Senior,0.7956675291061401
+9111027,Shailesh Patangay,Senior database consultant,Senior,0.814695417881012
+9536004,"Scott Trunkett, CSE","Energizing Marketing & Business Development Leader: Aerospace, Defense, Industrial Systems",Head,0.5191377401351929
+9773138,elizabeth portman black,Co-Founder & VP of Marketing at Vim Vitae,VP,0.5646266937255859
+9779810,"Sarah Merrifield, PMP, CSM",FVP of Project Management at PennyMac Loan Services,VP,0.3856555223464966
+9926480,Shawn Boxe,"Screenwriter with 3 Arts (Management), Verve (Agency)",Manager,0.18490685522556305
+10008453,Seth Gowans-Savage,Prematurely Retired,Head,0.30445191264152527
+10037945,Shania Veneziano,Cleaning Professional,Entry,0.18822070956230164
+10135951,Zoann Blacksten,Case Ready & VA Programs,VP,0.27072376012802124
+11675308,Yvonne Böhme (Boehme),"Goal-oriented and dynamic corporate real estate leader with comprehensive experience in managing business development processes through identifying, analyzing, and exploiting market opportunities.",Head,0.21330828964710236
+11788593,Esthela Alejandre,Owner at Angel's Carpentry Service LLC,Owner,0.7628886103630066
+11798937,Hannah Fjeldsted,Attorney Advisor at United States Department of Health and Human Services,Senior,0.2675042152404785
+11975643,Holly Barbarossa,College Counselor at Mary Louis Academy The,Head,0.19519513845443726
+12206230,Sandra Frisbey,"Portrush Financial Lifeboat Station, Wealth Coaching Services",Head,0.1655319482088089
+12241698,"Scott Paynter, RL",Landman at Osage Oil and Gas Properties,Head,0.21464113891124725
+12309511,Sarah Brondum,Sr. Technical Program Manager at Lumen Technologies,Senior,0.657107412815094
+12330399,Sarah F White,Environmental Compliance Specialist at UniFirst Corporation,Senior,0.2797054350376129
+12331074,Sarah K Bell,"Manager, Communications, Events and Digital Engagement",Manager,0.6328712105751038
+12438668,Shantel Savage,Technician,Senior,0.2528630793094635
+12530504,Shiona Oosha Raj,Senior Communications Executive at Communicado,Senior,0.8124086260795593
+16045234,TERESA HUNDLEY,White House Black Market/ ASSISTANT MANAGER,Manager,0.6373580098152161
+16605161,Tadeusz Szumera,Senior Design Engineer at Faraday Future,Senior,0.8928090929985046
+16640108,Talin Joulakian,Office Manager,Manager,0.7954342365264893
+16741298,Tammy Hughes Clowers,Client Relationship Manager at Orchestrate HR,Manager,0.6712809205055237
+16806623,Tania Kanigan,Key Account Manager at Lekker Food Distributors,Manager,0.4376256465911865
+16912777,Tamaris Boston,Advance Medical Administration Support,Partner,0.23160643875598907
+16970311,Tarun Gadodia,Program/Portfolio Manager with experience running large programs/projects in HR space,Manager,0.8381577730178833
+16976780,Tash Sanjay,HR Director ANZ - currently on Maternity Leave till April 2024,Director,0.6934370994567871
+16993682,Taressa Vollmar,Community Partner at Advanced Medical House Calls,Partner,0.8078210353851318
+17001228,Taryn Abbassian,Associate Research Director at Reproductive Freedom For All (NARAL),Director,0.2596697509288788
+17135292,Taylor Hingtgen,Producer,Partner,0.31321898102760315
+17204547,Teneale Constable,Senior HSE advisor - Sydney,Senior,0.8330817222595215
+17241392,Teresa (Teri) Klinkosz,"Business Analyst, MAXIMUS Federal",Partner,0.1755053550004959
+17386633,The Rev. Dr. Will Lawbaugh,"Priest in Charge, East Liverpool OH",VP,0.3849746286869049
+17441037,Theresa Marchant-Shapiro,Political Science Professor,Senior,0.35346519947052
+17492021,Thi Anh Lan Nguyen,Student at BIMM University,Head,0.27872148156166077
+17585515,Tasher Frederick,"RN, CHPCN(C), MN",Intern,0.16905686259269714
+17599702,Tatiana Diyankova,Senior Manager at PwC,Senior,0.5526625514030457
+17705698,Tayeka Williams,Crisis Assessment and Intervention Clinician at Aspen Pointe Walk in Clinic (WIC),VP,0.28032538294792175
+17743915,Tayler Rapier,"Registered Nurse, BSN",Senior,0.2914729118347168
+17744580,Tayler Schoenberg,Account Manager at Coca-Cola Beverages of Duluth,Manager,0.7003049850463867
+17844257,Temesa Johnson,Educator at Little Elm Independent School District,Head,0.26577985286712646
+17862395,Teresa Dayhoff,Senior Program Assistant at AAALAC International,Senior,0.8868786692619324
+17940704,Terry Bossaller,Business Owner at Terry Bossaller Farmers Insurance Agency,Owner,0.7278512716293335
+17950651,Terrence Umali,Batallion Infantry Chaplain at US Army Pacific,Entry,0.24545398354530334
+18313031,Tarrall Yanzu BSc,Founder and Managing Director at URGOS LTD,Founder,0.3579201400279999
+18457541,Thomas Desjardins M.S.M.,Information Technology Specialist at Automated Business Products,Senior,0.28186479210853577
+18474273,Thomas Dalesandro,Entertainment Industry Veteran,Senior,0.6665066480636597
+18599951,Ticairra Bazemore,Content Creator for BLU MOON FICTION,Founder,0.26699599623680115
+18619620,Tim Aysan,BSS/OSS Transformation Consultant,Head,0.21598507463932037
+18641501,Tila Eaton,Retail Sales Manager,Manager,0.638492226600647

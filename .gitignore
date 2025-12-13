@@ -38,6 +38,9 @@ ENV/
 *.csv
 !reports/*.csv
 
+# LinkedIn member data directory (large, not committed)
+li_member_csv_202403/
+
 # Reports (generated)
 reports/*.html
 reports/*.txt
