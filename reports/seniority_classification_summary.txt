@@ -1,0 +1,64 @@
+
+================================================================================
+SENIORITY CLASSIFICATION REPORT
+Generated: 2025-12-13 15:11:48
+Model: facebook/bart-large-mnli
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+Total titles classified: 100
+Successful classifications: 100
+Average confidence: 45.26%
+
+CONFIDENCE DISTRIBUTION
+------------------------
+High confidence (≥70%):      19 ( 19.0%)
+Medium confidence (50-69%):  23 ( 23.0%)
+Low confidence (<50%):       58 ( 58.0%)
+
+SENIORITY LEVEL DISTRIBUTION
+-----------------------------
+Director       :   7 (  7.0%)
+Entry          :   3 (  3.0%)
+Founder        :   2 (  2.0%)
+Head           :  22 ( 22.0%)
+Intern         :   1 (  1.0%)
+Manager        :  17 ( 17.0%)
+Owner          :   4 (  4.0%)
+Partner        :   9 (  9.0%)
+Senior         :  27 ( 27.0%)
+VP             :   8 (  8.0%)
+
+HIGH CONFIDENCE CLASSIFICATIONS (≥70%)
+--------------------------------------
+Senior Operations Planner/Analyst                            -> Senior       (94.6%)
+Senior Design Engineer at Faraday Future                     -> Senior       (89.3%)
+Senior Program Assistant at AAALAC International             -> Senior       (88.7%)
+Senior Technical Analyst                                     -> Senior       (88.0%)
+Senior Associate Creative Strategist                         -> Senior       (85.6%)
+Program/Portfolio Manager with experience running large prog -> Manager      (83.8%)
+Senior HSE advisor - Sydney                                  -> Senior       (83.3%)
+Senior database consultant                                   -> Senior       (81.5%)
+Senior Communications Executive at Communicado               -> Senior       (81.2%)
+Community Partner at Advanced Medical House Calls            -> Partner      (80.8%)
+
+LOW CONFIDENCE CLASSIFICATIONS (<50%)
+--------------------------------------
+Life consultant helping people realize experiences are more  -> Head         (14.8%)
+Inventory Logistics, GovX                                    -> VP           (15.1%)
+--                                                           -> Head         (15.3%)
+--                                                           -> Head         (15.3%)
+Environmental Science                                        -> Head         (15.5%)
+Portrush Financial Lifeboat Station, Wealth Coaching Service -> Head         (16.6%)
+Specialist - Training and Development                        -> Senior       (16.7%)
+RN, CHPCN(C), MN                                             -> Intern       (16.9%)
+Business Analyst, MAXIMUS Federal                            -> Partner      (17.6%)
+Business Systems Analyst at Amway & Defensive Coordinator at -> Head         (17.9%)
+
+FILES GENERATED
+---------------
+- seniority_classification_report.html (HTML report with full details)
+- seniority_classification_report.csv (CSV export for analysis)
+
+================================================================================

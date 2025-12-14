@@ -1,0 +1,1020 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seniority Classification Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-card h3 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .stat-card p {
+            margin: 5px 0 0 0;
+            opacity: 0.9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .confidence-high {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .confidence-medium {
+            color: #FF9800;
+            font-weight: bold;
+        }
+        .confidence-low {
+            color: #f44336;
+            font-weight: bold;
+        }
+        .timestamp {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Seniority Classification Report</h1>
+        <div class="timestamp">Generated: 2025-12-13 15:11:38</div>
+        
+        <h2>Summary Statistics</h2>
+        <div class="stats">
+            <div class="stat-card">
+                <h3>100</h3>
+                <p>Total Titles</p>
+            </div>
+            <div class="stat-card">
+                <h3>100</h3>
+                <p>Successful Classifications</p>
+            </div>
+            <div class="stat-card">
+                <h3>45.26%</h3>
+                <p>Average Confidence</p>
+            </div>
+            <div class="stat-card">
+                <h3>19</h3>
+                <p>High Confidence (≥70%)</p>
+            </div>
+        </div>
+        
+        <h2>Confidence Distribution</h2>
+        <table>
+            <tr>
+                <th>Confidence Level</th>
+                <th>Count</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>High (≥70%)</td>
+                <td>19</td>
+                <td>19.0%</td>
+            </tr>
+            <tr>
+                <td>Medium (50-69%)</td>
+                <td>23</td>
+                <td>23.0%</td>
+            </tr>
+            <tr>
+                <td>Low (&lt;50%)</td>
+                <td>58</td>
+                <td>58.0%</td>
+            </tr>
+        </table>
+        
+        <h2>Distribution by Seniority Level</h2>
+        <table>
+            <tr>
+                <th>Seniority Level</th>
+                <th>Count</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td>Senior</td>
+                <td>27</td>
+                <td>27.0%</td>
+            </tr>
+
+            <tr>
+                <td>Head</td>
+                <td>22</td>
+                <td>22.0%</td>
+            </tr>
+
+            <tr>
+                <td>Manager</td>
+                <td>17</td>
+                <td>17.0%</td>
+            </tr>
+
+            <tr>
+                <td>Partner</td>
+                <td>9</td>
+                <td>9.0%</td>
+            </tr>
+
+            <tr>
+                <td>VP</td>
+                <td>8</td>
+                <td>8.0%</td>
+            </tr>
+
+            <tr>
+                <td>Director</td>
+                <td>7</td>
+                <td>7.0%</td>
+            </tr>
+
+            <tr>
+                <td>Owner</td>
+                <td>4</td>
+                <td>4.0%</td>
+            </tr>
+
+            <tr>
+                <td>Entry</td>
+                <td>3</td>
+                <td>3.0%</td>
+            </tr>
+
+            <tr>
+                <td>Founder</td>
+                <td>2</td>
+                <td>2.0%</td>
+            </tr>
+
+            <tr>
+                <td>Intern</td>
+                <td>1</td>
+                <td>1.0%</td>
+            </tr>
+
+        </table>
+        
+        <h2>Detailed Classifications</h2>
+        <table>
+            <tr>
+                <th>Member ID</th>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Predicted Seniority</th>
+                <th>Confidence</th>
+            </tr>
+
+            <tr>
+                <td>1292950</td>
+                <td>BILL STEGELMEYER</td>
+                <td>--</td>
+                <td>Head</td>
+                <td class="confidence-low">15.26%</td>
+            </tr>
+
+            <tr>
+                <td>1526574</td>
+                <td>Beul Kifetew</td>
+                <td>Sales Marketing Associate at Bozzuto</td>
+                <td>Partner</td>
+                <td class="confidence-low">47.71%</td>
+            </tr>
+
+            <tr>
+                <td>1673923</td>
+                <td>Barnett Chessin</td>
+                <td>Consulting EXO at USAID</td>
+                <td>Head</td>
+                <td class="confidence-low">20.20%</td>
+            </tr>
+
+            <tr>
+                <td>1713495</td>
+                <td>Blake San Fellipo</td>
+                <td>Account Manager at Altair Engineering</td>
+                <td>Manager</td>
+                <td class="confidence-high">70.83%</td>
+            </tr>
+
+            <tr>
+                <td>1748441</td>
+                <td>Bob Altendorf</td>
+                <td>Let's collaborate so I can help you succeed!</td>
+                <td>Partner</td>
+                <td class="confidence-low">29.44%</td>
+            </tr>
+
+            <tr>
+                <td>1879457</td>
+                <td>Bethany Shiers</td>
+                <td>Investment Manager at August Equity - Leading UK & Ireland investors across Technology, Business Services, Healthcare and Education</td>
+                <td>Manager</td>
+                <td class="confidence-medium">68.55%</td>
+            </tr>
+
+            <tr>
+                <td>1896406</td>
+                <td>Breeana Sheffield</td>
+                <td>Environmental Science</td>
+                <td>Head</td>
+                <td class="confidence-low">15.47%</td>
+            </tr>
+
+            <tr>
+                <td>2136454</td>
+                <td>Brian Westmeyer</td>
+                <td>Senior Technical Analyst</td>
+                <td>Senior</td>
+                <td class="confidence-high">88.05%</td>
+            </tr>
+
+            <tr>
+                <td>2148228</td>
+                <td>Brianna Despenza</td>
+                <td>Senior Associate Creative Strategist</td>
+                <td>Senior</td>
+                <td class="confidence-high">85.57%</td>
+            </tr>
+
+            <tr>
+                <td>2206788</td>
+                <td>Brigitte Piuze</td>
+                <td>Project Manager at CAE Inc., PMP</td>
+                <td>Manager</td>
+                <td class="confidence-low">46.85%</td>
+            </tr>
+
+            <tr>
+                <td>2332348</td>
+                <td>Benis Cubas</td>
+                <td>Chef/Kitchen Manager</td>
+                <td>Manager</td>
+                <td class="confidence-medium">69.25%</td>
+            </tr>
+
+            <tr>
+                <td>2537958</td>
+                <td>Brett Paitry</td>
+                <td>Tax Director at EY</td>
+                <td>Director</td>
+                <td class="confidence-high">71.10%</td>
+            </tr>
+
+            <tr>
+                <td>2586540</td>
+                <td>Jamie A. Burns</td>
+                <td>Senior Operations Planner/Analyst</td>
+                <td>Senior</td>
+                <td class="confidence-high">94.60%</td>
+            </tr>
+
+            <tr>
+                <td>2903117</td>
+                <td>Jamey Tisdale</td>
+                <td>Chief of Staff, WW Specialist Org at Amazon Web Services</td>
+                <td>Head</td>
+                <td class="confidence-low">42.83%</td>
+            </tr>
+
+            <tr>
+                <td>2933289</td>
+                <td>Jacob Ludy</td>
+                <td>Tax Analyst at State Farm</td>
+                <td>Head</td>
+                <td class="confidence-low">26.69%</td>
+            </tr>
+
+            <tr>
+                <td>2941473</td>
+                <td>Jacob Hornbacher</td>
+                <td>National Director of Sports at USSSA</td>
+                <td>Director</td>
+                <td class="confidence-medium">58.55%</td>
+            </tr>
+
+            <tr>
+                <td>2974733</td>
+                <td>Jade Kause, P.Eng</td>
+                <td>Supervisor, Damage Prevention at ATCO Group</td>
+                <td>Senior</td>
+                <td class="confidence-medium">66.42%</td>
+            </tr>
+
+            <tr>
+                <td>3051723</td>
+                <td>Jacobey Ford, MA, MHA, RRT</td>
+                <td>HR Specialist (Policy) at U.S. Department of Health and Human Services (HHS)</td>
+                <td>Head</td>
+                <td class="confidence-low">21.97%</td>
+            </tr>
+
+            <tr>
+                <td>3139643</td>
+                <td>Jay Von Boeckmann, MBA</td>
+                <td>Sr. Manager at Mazda North American Operations</td>
+                <td>Senior</td>
+                <td class="confidence-low">46.92%</td>
+            </tr>
+
+            <tr>
+                <td>3195719</td>
+                <td>Jess Wishon</td>
+                <td>Outreach Specialist at PPRC</td>
+                <td>Partner</td>
+                <td class="confidence-medium">59.52%</td>
+            </tr>
+
+            <tr>
+                <td>3474664</td>
+                <td>Jon Volmar</td>
+                <td>Life consultant helping people realize experiences are more important than material things.</td>
+                <td>Head</td>
+                <td class="confidence-low">14.77%</td>
+            </tr>
+
+            <tr>
+                <td>3477079</td>
+                <td>Jon Northington</td>
+                <td>Mobile Expert, Virtual Retail</td>
+                <td>VP</td>
+                <td class="confidence-low">29.18%</td>
+            </tr>
+
+            <tr>
+                <td>3498567</td>
+                <td>Joanne Giacco</td>
+                <td>Executive Assistant at TJX Canada/Winners Merchants International L.P.</td>
+                <td>Entry</td>
+                <td class="confidence-low">26.51%</td>
+            </tr>
+
+            <tr>
+                <td>3507644</td>
+                <td>Joanne Kalp</td>
+                <td>Retired at Preferment</td>
+                <td>Senior</td>
+                <td class="confidence-medium">54.44%</td>
+            </tr>
+
+            <tr>
+                <td>3567305</td>
+                <td>Jeremiah Asaka</td>
+                <td>Assistant Professor at Sam Houston State University</td>
+                <td>Head</td>
+                <td class="confidence-low">22.69%</td>
+            </tr>
+
+            <tr>
+                <td>3612348</td>
+                <td>Jonathan Pointdujour</td>
+                <td>Manager, Global CP Business Operations at Paramount</td>
+                <td>Manager</td>
+                <td class="confidence-medium">67.03%</td>
+            </tr>
+
+            <tr>
+                <td>3695879</td>
+                <td>Jonathan Armsden</td>
+                <td>Identity Access Management (IAM) Systems Administrator Lead</td>
+                <td>Head</td>
+                <td class="confidence-medium">56.37%</td>
+            </tr>
+
+            <tr>
+                <td>3720751</td>
+                <td>Jodi Como</td>
+                <td>Ulta Beauty GM | Retail Operations, Guest Experience, Sales Growth</td>
+                <td>Manager</td>
+                <td class="confidence-low">45.56%</td>
+            </tr>
+
+            <tr>
+                <td>3750757</td>
+                <td>Joe Bernyk</td>
+                <td>Community Engagement Specialist at The Wood County Board of Developmental Disabilities</td>
+                <td>Partner</td>
+                <td class="confidence-low">28.56%</td>
+            </tr>
+
+            <tr>
+                <td>3888872</td>
+                <td>Jennifer Grolman</td>
+                <td>Associate Director at Willis Towers Watson</td>
+                <td>Partner</td>
+                <td class="confidence-low">23.56%</td>
+            </tr>
+
+            <tr>
+                <td>3921606</td>
+                <td>Jymme Kern</td>
+                <td>Owner/Operator of The UPS Store 4289</td>
+                <td>Owner</td>
+                <td class="confidence-high">72.03%</td>
+            </tr>
+
+            <tr>
+                <td>4094693</td>
+                <td>Jennifer Mathien</td>
+                <td>Pilates & Barre Instructor, Unfranchise Business Owner at SHOP.COM, Wellness Enthusiast</td>
+                <td>Owner</td>
+                <td class="confidence-medium">57.68%</td>
+            </tr>
+
+            <tr>
+                <td>4095391</td>
+                <td>Joy Kelly Scott</td>
+                <td>Managing Director - International Tax Services at EY</td>
+                <td>Director</td>
+                <td class="confidence-low">39.28%</td>
+            </tr>
+
+            <tr>
+                <td>4378459</td>
+                <td>Ju-Seog Lee</td>
+                <td>Professor at UT MD Anderson Cancer Center</td>
+                <td>Senior</td>
+                <td class="confidence-low">23.77%</td>
+            </tr>
+
+            <tr>
+                <td>4386742</td>
+                <td>Junyi Chung</td>
+                <td>Inventory Logistics, GovX</td>
+                <td>VP</td>
+                <td class="confidence-low">15.05%</td>
+            </tr>
+
+            <tr>
+                <td>4750990</td>
+                <td>Joan Brownhill MCQI CQP</td>
+                <td>Technical Evidence Manager at High Speed 2 Ltd</td>
+                <td>Manager</td>
+                <td class="confidence-medium">68.80%</td>
+            </tr>
+
+            <tr>
+                <td>4804496</td>
+                <td>Joanna Loops</td>
+                <td>Education Director at DonorSnap</td>
+                <td>Director</td>
+                <td class="confidence-medium">66.86%</td>
+            </tr>
+
+            <tr>
+                <td>4942148</td>
+                <td>Johnny Woods, MAJ (Ret) MBA, PMP</td>
+                <td>Educator/Professional Manager</td>
+                <td>Manager</td>
+                <td class="confidence-high">77.80%</td>
+            </tr>
+
+            <tr>
+                <td>5276202</td>
+                <td>Kale Easterling</td>
+                <td>Graduate of University of Houston, C.T. Bauer College of Business</td>
+                <td>Senior</td>
+                <td class="confidence-low">24.62%</td>
+            </tr>
+
+            <tr>
+                <td>5278855</td>
+                <td>Kaleb Hartje</td>
+                <td>Senior Manager, Marketing Program Management at Lumen Technologies</td>
+                <td>Senior</td>
+                <td class="confidence-medium">52.20%</td>
+            </tr>
+
+            <tr>
+                <td>5556131</td>
+                <td>Josh Dolben</td>
+                <td>Technical Services Specialist at Abbott Diagnostics Business</td>
+                <td>Senior</td>
+                <td class="confidence-low">31.81%</td>
+            </tr>
+
+            <tr>
+                <td>7008214</td>
+                <td>Yeon Whan Yoon</td>
+                <td>Project Designer at Spin Master</td>
+                <td>VP</td>
+                <td class="confidence-low">18.96%</td>
+            </tr>
+
+            <tr>
+                <td>7107982</td>
+                <td>Yevgeniy Gevorkyan</td>
+                <td>Business Systems Analyst at Amway & Defensive Coordinator at Calvin University Men's Lacrosse</td>
+                <td>Head</td>
+                <td class="confidence-low">17.88%</td>
+            </tr>
+
+            <tr>
+                <td>7200017</td>
+                <td>Ed Gruenwald</td>
+                <td>Director of Operations and Development at Grin and Grow, Ltd.</td>
+                <td>Director</td>
+                <td class="confidence-medium">65.06%</td>
+            </tr>
+
+            <tr>
+                <td>7327329</td>
+                <td>Yoshie Kurkowski</td>
+                <td>Creative Design Lead - Marketing at LAIKA Studios</td>
+                <td>Head</td>
+                <td class="confidence-low">35.40%</td>
+            </tr>
+
+            <tr>
+                <td>7329719</td>
+                <td>Yuly Alexandra Mora</td>
+                <td>Medical Laboratory Technologist 
+Microbiology 
+LifeLabs Medical Laboratory Services</td>
+                <td>Head</td>
+                <td class="confidence-low">23.15%</td>
+            </tr>
+
+            <tr>
+                <td>7615825</td>
+                <td>Edwin Farner</td>
+                <td>--</td>
+                <td>Head</td>
+                <td class="confidence-low">15.26%</td>
+            </tr>
+
+            <tr>
+                <td>8324513</td>
+                <td>Hasani Stewart</td>
+                <td>Corporate and Facilities Services Administrator</td>
+                <td>Senior</td>
+                <td class="confidence-low">26.02%</td>
+            </tr>
+
+            <tr>
+                <td>8714660</td>
+                <td>Hilma Raheem</td>
+                <td>Specialist - Training and Development</td>
+                <td>Senior</td>
+                <td class="confidence-low">16.74%</td>
+            </tr>
+
+            <tr>
+                <td>9008326</td>
+                <td>Ivy Zhou, PMP</td>
+                <td>Sr Program Manager at  Amazon Web Services (AWS)</td>
+                <td>Senior</td>
+                <td class="confidence-high">79.57%</td>
+            </tr>
+
+            <tr>
+                <td>9111027</td>
+                <td>Shailesh Patangay</td>
+                <td>Senior database consultant</td>
+                <td>Senior</td>
+                <td class="confidence-high">81.47%</td>
+            </tr>
+
+            <tr>
+                <td>9536004</td>
+                <td>Scott Trunkett, CSE</td>
+                <td>Energizing Marketing & Business Development Leader: Aerospace, Defense, Industrial Systems</td>
+                <td>Head</td>
+                <td class="confidence-medium">51.91%</td>
+            </tr>
+
+            <tr>
+                <td>9773138</td>
+                <td>elizabeth portman black</td>
+                <td>Co-Founder & VP of Marketing at Vim Vitae</td>
+                <td>VP</td>
+                <td class="confidence-medium">56.46%</td>
+            </tr>
+
+            <tr>
+                <td>9779810</td>
+                <td>Sarah Merrifield, PMP, CSM</td>
+                <td>FVP of Project Management at PennyMac Loan Services</td>
+                <td>VP</td>
+                <td class="confidence-low">38.57%</td>
+            </tr>
+
+            <tr>
+                <td>9926480</td>
+                <td>Shawn Boxe</td>
+                <td>Screenwriter with 3 Arts (Management), Verve (Agency)</td>
+                <td>Manager</td>
+                <td class="confidence-low">18.49%</td>
+            </tr>
+
+            <tr>
+                <td>10008453</td>
+                <td>Seth Gowans-Savage</td>
+                <td>Prematurely Retired</td>
+                <td>Head</td>
+                <td class="confidence-low">30.45%</td>
+            </tr>
+
+            <tr>
+                <td>10037945</td>
+                <td>Shania Veneziano</td>
+                <td>Cleaning Professional</td>
+                <td>Entry</td>
+                <td class="confidence-low">18.82%</td>
+            </tr>
+
+            <tr>
+                <td>10135951</td>
+                <td>Zoann Blacksten</td>
+                <td>Case Ready & VA Programs</td>
+                <td>VP</td>
+                <td class="confidence-low">27.07%</td>
+            </tr>
+
+            <tr>
+                <td>11675308</td>
+                <td>Yvonne Böhme (Boehme)</td>
+                <td>Goal-oriented and dynamic corporate real estate leader with comprehensive experience in managing business development processes through identifying, analyzing, and exploiting market opportunities.</td>
+                <td>Head</td>
+                <td class="confidence-low">21.33%</td>
+            </tr>
+
+            <tr>
+                <td>11788593</td>
+                <td>Esthela Alejandre</td>
+                <td>Owner at Angel's Carpentry Service LLC</td>
+                <td>Owner</td>
+                <td class="confidence-high">76.29%</td>
+            </tr>
+
+            <tr>
+                <td>11798937</td>
+                <td>Hannah Fjeldsted</td>
+                <td>Attorney Advisor at United States Department of Health and Human Services</td>
+                <td>Senior</td>
+                <td class="confidence-low">26.75%</td>
+            </tr>
+
+            <tr>
+                <td>11975643</td>
+                <td>Holly Barbarossa</td>
+                <td>College Counselor at Mary Louis Academy The</td>
+                <td>Head</td>
+                <td class="confidence-low">19.52%</td>
+            </tr>
+
+            <tr>
+                <td>12206230</td>
+                <td>Sandra Frisbey</td>
+                <td>Portrush Financial Lifeboat Station, Wealth Coaching Services</td>
+                <td>Head</td>
+                <td class="confidence-low">16.55%</td>
+            </tr>
+
+            <tr>
+                <td>12241698</td>
+                <td>Scott Paynter, RL</td>
+                <td>Landman at Osage Oil and Gas Properties</td>
+                <td>Head</td>
+                <td class="confidence-low">21.46%</td>
+            </tr>
+
+            <tr>
+                <td>12309511</td>
+                <td>Sarah Brondum</td>
+                <td>Sr. Technical Program Manager at Lumen Technologies</td>
+                <td>Senior</td>
+                <td class="confidence-medium">65.71%</td>
+            </tr>
+
+            <tr>
+                <td>12330399</td>
+                <td>Sarah F White</td>
+                <td>Environmental Compliance Specialist at UniFirst Corporation</td>
+                <td>Senior</td>
+                <td class="confidence-low">27.97%</td>
+            </tr>
+
+            <tr>
+                <td>12331074</td>
+                <td>Sarah K Bell</td>
+                <td>Manager, Communications, Events and Digital Engagement</td>
+                <td>Manager</td>
+                <td class="confidence-medium">63.29%</td>
+            </tr>
+
+            <tr>
+                <td>12438668</td>
+                <td>Shantel Savage</td>
+                <td>Technician</td>
+                <td>Senior</td>
+                <td class="confidence-low">25.29%</td>
+            </tr>
+
+            <tr>
+                <td>12530504</td>
+                <td>Shiona Oosha Raj</td>
+                <td>Senior Communications Executive at Communicado</td>
+                <td>Senior</td>
+                <td class="confidence-high">81.24%</td>
+            </tr>
+
+            <tr>
+                <td>16045234</td>
+                <td>TERESA HUNDLEY</td>
+                <td>White House Black Market/ ASSISTANT MANAGER</td>
+                <td>Manager</td>
+                <td class="confidence-medium">63.74%</td>
+            </tr>
+
+            <tr>
+                <td>16605161</td>
+                <td>Tadeusz Szumera</td>
+                <td>Senior Design Engineer at Faraday Future</td>
+                <td>Senior</td>
+                <td class="confidence-high">89.28%</td>
+            </tr>
+
+            <tr>
+                <td>16640108</td>
+                <td>Talin Joulakian</td>
+                <td>Office Manager</td>
+                <td>Manager</td>
+                <td class="confidence-high">79.54%</td>
+            </tr>
+
+            <tr>
+                <td>16741298</td>
+                <td>Tammy Hughes Clowers</td>
+                <td>Client Relationship Manager at Orchestrate HR</td>
+                <td>Manager</td>
+                <td class="confidence-medium">67.13%</td>
+            </tr>
+
+            <tr>
+                <td>16806623</td>
+                <td>Tania Kanigan</td>
+                <td>Key Account Manager at Lekker Food Distributors</td>
+                <td>Manager</td>
+                <td class="confidence-low">43.76%</td>
+            </tr>
+
+            <tr>
+                <td>16912777</td>
+                <td>Tamaris Boston</td>
+                <td>Advance Medical Administration Support</td>
+                <td>Partner</td>
+                <td class="confidence-low">23.16%</td>
+            </tr>
+
+            <tr>
+                <td>16970311</td>
+                <td>Tarun Gadodia</td>
+                <td>Program/Portfolio Manager with experience running large programs/projects in HR space</td>
+                <td>Manager</td>
+                <td class="confidence-high">83.82%</td>
+            </tr>
+
+            <tr>
+                <td>16976780</td>
+                <td>Tash Sanjay</td>
+                <td>HR Director ANZ - currently on Maternity Leave till April 2024</td>
+                <td>Director</td>
+                <td class="confidence-medium">69.34%</td>
+            </tr>
+
+            <tr>
+                <td>16993682</td>
+                <td>Taressa Vollmar</td>
+                <td>Community Partner at Advanced Medical House Calls</td>
+                <td>Partner</td>
+                <td class="confidence-high">80.78%</td>
+            </tr>
+
+            <tr>
+                <td>17001228</td>
+                <td>Taryn Abbassian</td>
+                <td>Associate Research Director at Reproductive Freedom For All (NARAL)</td>
+                <td>Director</td>
+                <td class="confidence-low">25.97%</td>
+            </tr>
+
+            <tr>
+                <td>17135292</td>
+                <td>Taylor Hingtgen</td>
+                <td>Producer</td>
+                <td>Partner</td>
+                <td class="confidence-low">31.32%</td>
+            </tr>
+
+            <tr>
+                <td>17204547</td>
+                <td>Teneale Constable</td>
+                <td>Senior HSE advisor - Sydney</td>
+                <td>Senior</td>
+                <td class="confidence-high">83.31%</td>
+            </tr>
+
+            <tr>
+                <td>17241392</td>
+                <td>Teresa (Teri) Klinkosz</td>
+                <td>Business Analyst, MAXIMUS Federal</td>
+                <td>Partner</td>
+                <td class="confidence-low">17.55%</td>
+            </tr>
+
+            <tr>
+                <td>17386633</td>
+                <td>The Rev. Dr. Will Lawbaugh</td>
+                <td>Priest in Charge, East Liverpool OH</td>
+                <td>VP</td>
+                <td class="confidence-low">38.50%</td>
+            </tr>
+
+            <tr>
+                <td>17441037</td>
+                <td>Theresa Marchant-Shapiro</td>
+                <td>Political Science Professor</td>
+                <td>Senior</td>
+                <td class="confidence-low">35.35%</td>
+            </tr>
+
+            <tr>
+                <td>17492021</td>
+                <td>Thi Anh Lan Nguyen</td>
+                <td>Student at BIMM University</td>
+                <td>Head</td>
+                <td class="confidence-low">27.87%</td>
+            </tr>
+
+            <tr>
+                <td>17585515</td>
+                <td>Tasher Frederick</td>
+                <td>RN, CHPCN(C), MN</td>
+                <td>Intern</td>
+                <td class="confidence-low">16.91%</td>
+            </tr>
+
+            <tr>
+                <td>17599702</td>
+                <td>Tatiana Diyankova</td>
+                <td>Senior Manager at PwC</td>
+                <td>Senior</td>
+                <td class="confidence-medium">55.27%</td>
+            </tr>
+
+            <tr>
+                <td>17705698</td>
+                <td>Tayeka Williams</td>
+                <td>Crisis Assessment and Intervention Clinician at Aspen Pointe Walk in Clinic (WIC)</td>
+                <td>VP</td>
+                <td class="confidence-low">28.03%</td>
+            </tr>
+
+            <tr>
+                <td>17743915</td>
+                <td>Tayler Rapier</td>
+                <td>Registered Nurse, BSN</td>
+                <td>Senior</td>
+                <td class="confidence-low">29.15%</td>
+            </tr>
+
+            <tr>
+                <td>17744580</td>
+                <td>Tayler Schoenberg</td>
+                <td>Account Manager at Coca-Cola Beverages of Duluth</td>
+                <td>Manager</td>
+                <td class="confidence-high">70.03%</td>
+            </tr>
+
+            <tr>
+                <td>17844257</td>
+                <td>Temesa Johnson</td>
+                <td>Educator at Little Elm Independent School District</td>
+                <td>Head</td>
+                <td class="confidence-low">26.58%</td>
+            </tr>
+
+            <tr>
+                <td>17862395</td>
+                <td>Teresa Dayhoff</td>
+                <td>Senior Program Assistant at AAALAC International</td>
+                <td>Senior</td>
+                <td class="confidence-high">88.69%</td>
+            </tr>
+
+            <tr>
+                <td>17940704</td>
+                <td>Terry Bossaller</td>
+                <td>Business Owner at Terry Bossaller Farmers Insurance Agency</td>
+                <td>Owner</td>
+                <td class="confidence-high">72.79%</td>
+            </tr>
+
+            <tr>
+                <td>17950651</td>
+                <td>Terrence Umali</td>
+                <td>Batallion Infantry Chaplain at US Army Pacific</td>
+                <td>Entry</td>
+                <td class="confidence-low">24.55%</td>
+            </tr>
+
+            <tr>
+                <td>18313031</td>
+                <td>Tarrall Yanzu BSc</td>
+                <td>Founder and Managing Director at URGOS LTD</td>
+                <td>Founder</td>
+                <td class="confidence-low">35.79%</td>
+            </tr>
+
+            <tr>
+                <td>18457541</td>
+                <td>Thomas Desjardins M.S.M.</td>
+                <td>Information Technology Specialist at Automated Business Products</td>
+                <td>Senior</td>
+                <td class="confidence-low">28.19%</td>
+            </tr>
+
+            <tr>
+                <td>18474273</td>
+                <td>Thomas Dalesandro</td>
+                <td>Entertainment Industry Veteran</td>
+                <td>Senior</td>
+                <td class="confidence-medium">66.65%</td>
+            </tr>
+
+            <tr>
+                <td>18599951</td>
+                <td>Ticairra Bazemore</td>
+                <td>Content Creator for BLU MOON FICTION</td>
+                <td>Founder</td>
+                <td class="confidence-low">26.70%</td>
+            </tr>
+
+            <tr>
+                <td>18619620</td>
+                <td>Tim Aysan</td>
+                <td>BSS/OSS Transformation Consultant</td>
+                <td>Head</td>
+                <td class="confidence-low">21.60%</td>
+            </tr>
+
+            <tr>
+                <td>18641501</td>
+                <td>Tila Eaton</td>
+                <td>Retail Sales Manager</td>
+                <td>Manager</td>
+                <td class="confidence-medium">63.85%</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
